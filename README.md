@@ -4,6 +4,12 @@ Projeto interno focado no processamento, análise e modelagem preditiva de dados
 
 ---
 
+## 📄 Documentação Geral
+
+* 📌 [Acessar Documentação do Projeto no Google Docs](https://docs.google.com/document/d/1iBD9AVlYwnnAqOsbWrgavNlRKQFKatJvIt4wkJBjPeg/edit?usp=sharing)
+
+---
+
 ## 📁 O que vai em cada pasta?
 
 * **`data/`**: Guardar as bases de dados.
