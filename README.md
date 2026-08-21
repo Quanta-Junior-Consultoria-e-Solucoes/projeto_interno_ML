@@ -4,20 +4,20 @@ Projeto interno focado no processamento, análise e modelagem preditiva de dados
 
 ---
 
-## Guia de Pastas e Estrutura
+## 📁 O que vai em cada pasta?
 
-* **`data/`**: Armazena a base de dados do projeto.
-  * **`data/raw/`**: Dados brutos baixados diretamente do INPE ou fontes externas. **Nunca** altere estes arquivos manualmente.
-  * **`data/processed/`**: Dados limpos, filtrados e preparados para os modelos.
-* **`notebooks/`**: Rascunhos e testes em Jupyter Notebook (`.ipynb`) para análises exploratórias, gráficos e prototipagem rápida.
-* **`src/`**: Código-fonte oficial do projeto em scripts Python (`.py`). Contém o processamento de dados, pipelines de treino e funções reutilizáveis.
-* **`models/`**: Guarda os arquivos dos modelos treinados e salvos (`.pt`, `.pkl`, `.h5`) para reutilização.
-* **`docs/`**: Documentação complementar, como diagramas da arquitetura, relatórios e imagens do projeto.
+* **`data/`**: Guardar as bases de dados.
+  * **`data/raw/`**: Dados brutos baixados do INPE (não mude nada aqui).
+  * **`data/processed/`**: Dados limpos e prontos para o modelo.
+* **`notebooks/`**: Rascunhos e testes no Jupyter (`.ipynb`) para análises e gráficos.
+* **`src/`**: O código oficial em Python (`.py`) para pré-processamento, treino e funções do projeto.
+* **`models/`**: Modelos já treinados e salvos (`.pt`, `.pkl`) para rodar depois sem precisar treinar de novo.
+* **`docs/`**: Imagens, diagramas e relatórios do projeto.
 
 ---
 
-## Arquivos da Raiz
+## 📄 Arquivos Principais
 
-* **`requirements.txt`**: Lista com todas as bibliotecas necessárias para rodar o projeto no mesmo ambiente.
-* **`README.md`**: Guia principal com explicações do projeto, instruções de uso e membros da equipe.
-* **`.gitignore`**: Define quais arquivos e pastas pesadas (como bases de dados) o Git deve ignorar.
+* **`requirements.txt`**: Lista de bibliotecas para instalar no projeto.
+* **`README.md`**: Guia do projeto e instruções gerais.
+* **`.gitignore`**: Impede que o Git envie arquivos pesados (como as bases de dados) para o GitHub.
