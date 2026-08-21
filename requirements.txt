@@ -1,0 +1,13 @@
+# Manipulação e Análise de Dados
+pandas
+numpy
+geopandas
+
+# Visão Computacional e ML
+opencv-python
+scikit-learn
+matplotlib
+seaborn
+
+# Utilidades
+jupyter
